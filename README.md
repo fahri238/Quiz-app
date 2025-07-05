@@ -1,16 +1,35 @@
-# quiz_app
+# Quiz App Flutter 🚀
 
-A new Flutter project.
+Sebuah aplikasi kuis sederhana yang dibuat dengan Flutter sebagai bagian dari proses pembelajaran. Aplikasi ini menyajikan serangkaian pertanyaan pilihan ganda dan menampilkan layar hasil yang detail di akhir, serta halaman profil statis.
 
-## Getting Started
+## Fitur ✨
 
-This project is a starting point for a Flutter application.
+- Alur kuis dari halaman awal, pertanyaan, hingga halaman hasil.
+- Pilihan jawaban yang diacak setiap kali kuis dimulai.
+- Halaman hasil yang menampilkan skor akhir.
+- Ringkasan detail dari setiap pertanyaan, jawaban pengguna, dan jawaban yang benar.
+- Halaman profil statis.
+- Fungsi untuk memulai ulang kuis dari halaman hasil.
+- Tombol navigasi untuk pindah ke halaman profil dari halaman utama.
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi yang Digunakan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Framework:** Flutter  
+- **Bahasa:** Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Memulai (Getting Started)
+
+Untuk menjalankan proyek ini secara lokal, ikuti langkah-langkah berikut:
+
+```bash
+# Clone repository ini
+git clone https://github.com/fahri238/Quiz-app.git
+
+# Masuk ke direktori proyek
+cd Quiz-app/quiz_app
+
+# Install dependencies
+flutter pub get
+
+# Jalankan aplikasi
+flutter run
